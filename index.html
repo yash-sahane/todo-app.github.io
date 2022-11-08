@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-page">
+            <div class="todo_list_div">
+                <h1 class="todo-heading">Todo List</h1>
+                <div class="top-div">
+                    <div class="input-div">
+                        <input type="text" id="todo-input" class="todo-input">
+                        <i class="fa-solid fa-plus todo-button"></i>
+                        <p class="validation-text">Field can't be empty</p>
+                    </div>
+                    <div class="todo-filter">
+                        <select name="todos" id="todo-filter-id" class="todo-filter-select-div">
+                            <option value="All">All</option>
+                            <option value="Completed">Completed</option>
+                            <option value="Uncompleted">Uncompleted</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="todo-list-items">
+                <ul class="todo-items" id="todo-items">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- <input type="date" name="" id="date"> -->
+</body>
+<script src="script.js"></script>
+
+</html>
